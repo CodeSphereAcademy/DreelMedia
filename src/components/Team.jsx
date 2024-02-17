@@ -1,27 +1,27 @@
 import React from "react";
-import abhishekImg from "../assets/team/abhishekPic.jpg"
-import abhijeetImg from "../assets/team/abhijeetPic.jpg"
-import someshImg from "../assets/team/someshPic.png"
+import abhishekImg from "../assets/team/abhishekPic.jpg";
+import abhijeetImg from "../assets/team/abhijeetPic.jpg";
+import someshImg from "../assets/team/someshPic.png";
 
 export default function Team() {
   return (
     <section className="py-6 bg-gray-200 text-orange-500" id="Team">
       <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
-        <p className="p-2 font-medium tracki text-center text-4xl">
-          Our Team
-        </p>
+        <p className="p-2 font-medium tracki text-center text-4xl">Our Team</p>
         <h1 className="text-3xl font-extralight text-center sm:text-3xl text-black">
           The talented people behind the scenes
         </h1>
         <div className="flex flex-row flex-wrap justify-center mt-8">
-          <div className="border-2 border-orange-300 flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
+          <div className="border-2 border-gray-400 flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
             <img
               alt=""
               className="self-center flex-shrink-0 w-36 h-36 -mt-12 bg-center bg-cover border-orange-500 border-2 rounded-full dark:bg-gray-500"
               src={someshImg}
             />
             <div className="flex-1 my-4">
-              <p className="text-xl font-semibold leadi text-orange-500">Somesh Rathore</p>
+              <p className="text-xl font-semibold leadi text-orange-500">
+                Somesh Rathore
+              </p>
               <p>Business manager</p>
             </div>
             <div className="flex items-center justify-center p-3 space-x-3 border-t-2 border-orange-500">
@@ -29,7 +29,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 href="#"
                 title="Email"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="text-orange-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 href="#"
                 title="Twitter"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="text-orange-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 href="#"
                 title="LinkedIn"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="text-orange-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -73,14 +73,16 @@ export default function Team() {
               </a>
             </div>
           </div>
-          <div className="border-2 border-orange-300 flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
+          <div className="border-2 border-gray-400 flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
             <img
               alt=""
               className="self-center flex-shrink-0 w-36 h-36 -mt-12 bg-center bg-cover border-orange-500 border-2 rounded-full dark:bg-gray-500"
               src={abhijeetImg}
             />
             <div className="flex-1 my-4">
-              <p className="text-xl font-semibold leadi text-orange-500">Abhijeet Deskmukh</p>
+              <p className="text-xl font-semibold leadi text-orange-500">
+                Abhijeet Deskmukh
+              </p>
               <p>Marketing Lead</p>
             </div>
             <div className="flex items-center justify-center p-3 space-x-3 border-t-2 border-orange-500">
@@ -88,7 +90,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 href="#"
                 title="Email"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="text-orange-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +106,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 href="#"
                 title="Twitter"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="text-orange-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +121,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 href="#"
                 title="LinkedIn"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="text-orange-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -132,14 +134,16 @@ export default function Team() {
               </a>
             </div>
           </div>
-          <div className="border-2 border-orange-300 flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
+          <div className="border-2 border-gray-400 flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
             <img
               alt=""
               className="self-center flex-shrink-0 w-36 h-36 -mt-12 bg-center bg-cover border-orange-500 border-2 rounded-full dark:bg-gray-500"
               src={abhishekImg}
             />
             <div className="flex-1 my-4">
-              <p className="text-xl font-semibold leadi text-orange-500">Abhishek Singh</p>
+              <p className="text-xl font-semibold leadi text-orange-500">
+                Abhishek Singh
+              </p>
               <p>Technical Lead</p>
             </div>
             <div className="flex items-center justify-center p-3 space-x-3 border-t-2 border-orange-500">
@@ -147,7 +151,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 href="#"
                 title="Email"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="text-orange-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -163,7 +167,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 href="#"
                 title="Twitter"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="text-orange-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +182,7 @@ export default function Team() {
                 rel="noopener noreferrer"
                 href="#"
                 title="LinkedIn"
-                className="dark:text-gray-900 hover:dark:text-violet-400"
+                className="text-orange-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

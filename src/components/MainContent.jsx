@@ -20,14 +20,14 @@ export default function MainContent() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               className="block w-full rounded bg-orange-500 px-12 py-3 text-sm font-medium text-white shadow hover:bg-orange-300 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-              href="#"
+              href="#HowWeDoIt"
             >
               Get Started
             </a>
 
             <a
-              className="block w-full rounded px-12 py-3 text-sm font-medium text-orange-600 shadow hover:text-orange-700 focus:outline-none focus:ring active:text-orange-500 sm:w-auto"
-              href="#"
+              className="bg-white block w-full rounded px-12 py-3 text-sm font-medium text-orange-600 shadow hover:text-orange-700 focus:outline-none focus:ring active:text-orange-500 sm:w-auto"
+              href="#Services"
             >
               Learn More
             </a>
