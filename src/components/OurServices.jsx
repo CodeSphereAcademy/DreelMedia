@@ -112,15 +112,7 @@ export default function OurServices() {
             </p>
           </a>
         </div>
-
-        <div className="mt-12 text-center">
-          <a
-            href="#"
-            className="inline-block rounded bg-orange-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-orange-600 focus:outline-none focus:ring focus:ring-orange-400"
-          >
-            Get Started Today
-          </a>
-        </div>
+        
       </div>
     </section>
   );
