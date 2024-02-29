@@ -13,10 +13,7 @@ export default function About() {
               <div className="">
                 <div className="p-4 sm:p-16 lg:py-24">
                   <h2 className="text-4xl font-bold md:text-5xl text-orange-500 mb-2 md:mb-3">
-                    About
-                  </h2>
-                  <h2 className="text-4xl font-bold md:text-5xl text-orange-500">
-                    Dreel Technologies<br/> <span className="font-light md:text-3xl text-xl">Empowering Businesses for Success</span>
+                    About Dreel Technologies<br/> <span className="font-light md:text-3xl text-xl">Empowering Businesses for Success</span>
                   </h2>
                   <p className="mt-4 md:text-xl text-gray-600">
                     Dreel Technologies is a dynamic digital media and technology agency dedicated to empowering businesses to thrive in today's ever-evolving marketplace. With a passion for innovation and a commitment to excellence, we offer a comprehensive suite of services designed to propel businesses forward and maximize their online presence.

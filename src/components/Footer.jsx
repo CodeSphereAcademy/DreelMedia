@@ -310,7 +310,7 @@ export default function Footer() {
                     className="text-gray-400 transition hover:opacity-75"
                   >
                     <i class="bi bi-envelope-at-fill"></i>
-                    <span> mediadreel@gmail.com</span>
+                    <span> dreeltechnologies@gmail.com</span>
                   </a>
                 </li>
 
