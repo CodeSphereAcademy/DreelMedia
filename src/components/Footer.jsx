@@ -2,17 +2,17 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-white" id="Footer">
+    <footer style={{backgroundColor:'#12254D'}} id="Footer">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <div className="text-teal-600">
-              <h1 className="text-orange-500 text-3xl font-bold">
-                Dreel media
+            <div className="text-white">
+              <h1 className="text-white text-3xl font-bold">
+                Dreel TechnoLogies
               </h1>
             </div>
 
-            <p className="mt-4 max-w-xs text-gray-500">
+            <p className="mt-4 max-w-xs text-gray-50">
               We specialize in tailored marketing and technology solutions to
               help your business thrive. Let's collaborate and achieve your
               goals together.
@@ -24,7 +24,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">Facebook</span>
 
@@ -48,7 +48,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">Instagram</span>
 
@@ -72,7 +72,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">Twitter</span>
 
@@ -92,7 +92,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">GitHub</span>
 
@@ -116,7 +116,7 @@ export default function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">Dribbble</span>
 
@@ -139,13 +139,13 @@ export default function Footer() {
 
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
             <div>
-              <p className="font-medium text-orange-500">Marketing Solutions</p>
+              <p className="font-medium text-white">Marketing Solutions</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Brand Design{" "}
@@ -155,7 +155,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Digital Marketing{" "}
@@ -165,7 +165,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Social Media Managemen{" "}
@@ -175,7 +175,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Performance Marketing{" "}
@@ -185,7 +185,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <p className="font-medium text-orange-500">
+              <p className="font-medium text-white">
                 Technology Solutions
               </p>
 
@@ -193,7 +193,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Website Development{" "}
@@ -203,7 +203,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Mobile App Development{" "}
@@ -213,7 +213,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Automation / Chat Bots{" "}
@@ -223,7 +223,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Artificial Intelligence
@@ -233,7 +233,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <p className="font-medium text-orange-500">
+              <p className="font-medium text-white">
                 Business Consultancy
               </p>
 
@@ -241,7 +241,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Strategic Planning{" "}
@@ -251,7 +251,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Market Analysis{" "}
@@ -261,7 +261,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Operational Optimization{" "}
@@ -271,7 +271,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Executive Coaching{" "}
@@ -281,13 +281,13 @@ export default function Footer() {
             </div>
 
             <div>
-              <p className="font-medium text-orange-500">Company Contact</p>
+              <p className="font-medium text-white">Company Contact</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     <i class="bi bi-telephone-fill"></i>
                     <span> +91-9907839311</span>
@@ -297,7 +297,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     <i class="bi bi-telephone-fill"></i>
                     <span> +91-8003840080</span>
@@ -307,7 +307,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     <i class="bi bi-envelope-at-fill"></i>
                     <span> mediadreel@gmail.com</span>
@@ -317,7 +317,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     <i class="bi bi-geo-alt-fill"></i>
                     <span> Dreel Media ( Dropper Logistics Pvt. Ltd. ), Dixit Colony Nehru Nagar, Bhilai, CG, 490020 IN.</span>
@@ -328,7 +328,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-gray-50">
           &copy; 2024. Dropper Logistics Pvt. Ltd. All rights reserved.
         </p>
       </div>

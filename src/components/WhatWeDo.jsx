@@ -3,11 +3,11 @@ import React from "react";
 export default function WhatWeDo() {
   return (
     <section className="bg-white text-orange-500" id="WhatWeDo">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:pb-24">
         <div className="max-w-xl">
-          <h2 className="text-3xl font-bold sm:text-4xl">What We Do?</h2>
+          <h2 className="text-4xl font-bold md:text-5xl">What We Do?</h2>
 
-          <p className="mt-4 text-black">
+          <p className="mt-4 md:text-xl text-black">
             At Dreel Media, we're dedicated to propelling your business forward
             with our comprehensive range of services. Whether you're looking to
             generate leads, increase sales, unleash creative advertising
@@ -18,7 +18,7 @@ export default function WhatWeDo() {
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
           <div className="flex items-start gap-4">
-            <span className="shrink-0 rounded-lg bg-orange-500 text-white p-4">
+            <span className="shrink-0 rounded-lg text-white p-4" style={{backgroundColor:'#12254D'}}>
               <svg
                 className="size-10"
                 fill="none"
@@ -32,7 +32,7 @@ export default function WhatWeDo() {
             </span>
 
             <div>
-              <h2 className="text-lg font-bold">Lead Generation</h2>
+              <h2 className="text-lg font-bold" style={{color:'#12254D'}}>Lead Generation</h2>
 
               <p className="mt-1 text-sm text-black">
                 Need a steady stream of qualified leads? We employ targeted
@@ -43,7 +43,7 @@ export default function WhatWeDo() {
           </div>
 
           <div className="flex items-start gap-4">
-            <span className="shrink-0 rounded-lg bg-orange-500 text-white p-4">
+            <span className="shrink-0 rounded-lg text-white p-4" style={{backgroundColor:'#12254D'}}>
               <svg
                 className="size-10"
                 fill="none"
@@ -56,7 +56,7 @@ export default function WhatWeDo() {
             </span>
 
             <div>
-              <h2 className="text-lg font-bold">Sales Boost</h2>
+              <h2 className="text-lg font-bold" style={{color:'#12254D'}}>Sales Boost</h2>
 
               <p className="mt-1 text-sm text-black">
                 Ready to skyrocket your sales figures? We implement effective
@@ -67,7 +67,7 @@ export default function WhatWeDo() {
           </div>
 
           <div className="flex items-start gap-4">
-            <span className="shrink-0 rounded-lg bg-orange-500 text-white p-4">
+            <span className="shrink-0 rounded-lg text-white p-4" style={{backgroundColor:'#12254D'}}>
               <svg
                 className="size-10"
                 fill="currentColor"
@@ -80,7 +80,7 @@ export default function WhatWeDo() {
             </span>
 
             <div>
-              <h2 className="text-lg font-bold">Creative Advertising</h2>
+              <h2 className="text-lg font-bold" style={{color:'#12254D'}}>Creative Advertising</h2>
 
               <p className="mt-1 text-sm text-black">
                 Stand out from the crowd with our innovative advertising
@@ -91,7 +91,7 @@ export default function WhatWeDo() {
           </div>
 
           <div className="flex items-start gap-4">
-            <span className="shrink-0 rounded-lg bg-orange-500 text-white p-4">
+            <span className="shrink-0 rounded-lg text-white p-4" style={{backgroundColor:'#12254D'}}>
               <svg
                 className="size-10"
                 fill="none"
@@ -105,7 +105,7 @@ export default function WhatWeDo() {
             </span>
 
             <div>
-              <h2 className="text-lg font-bold">Technology Optimization</h2>
+              <h2 className="text-lg font-bold" style={{color:'#12254D'}}>Technology Optimization</h2>
 
               <p className="mt-1 text-sm text-black">
                 Streamline operations and enhance efficiency with our advanced
@@ -116,7 +116,7 @@ export default function WhatWeDo() {
           </div>
 
           <div className="flex items-start gap-4">
-            <span className="shrink-0 rounded-lg bg-orange-500 text-white p-4">
+            <span className="shrink-0 rounded-lg text-white p-4" style={{backgroundColor:'#12254D'}}>
               <svg
                 className="size-10 -rotate-12"
                 fill="currentColor"
@@ -128,7 +128,7 @@ export default function WhatWeDo() {
             </span>
 
             <div>
-              <h2 className="text-lg font-bold">Tailored Marketing</h2>
+              <h2 className="text-lg font-bold" style={{color:'#12254D'}}>Tailored Marketing</h2>
 
               <p className="mt-1 text-sm text-black">
                 Need customized marketing solutions? We create strategies
@@ -139,7 +139,7 @@ export default function WhatWeDo() {
           </div>
 
           <div className="flex items-start gap-4">
-            <span className="shrink-0 rounded-lg bg-orange-500 text-white p-4">
+            <span className="shrink-0 rounded-lg text-white p-4" style={{backgroundColor:'#12254D'}}>
               <svg
                 className="size-10"
                 fill="currentColor"
@@ -151,7 +151,7 @@ export default function WhatWeDo() {
             </span>
 
             <div>
-              <h2 className="text-lg font-bold">Consultation and Support</h2>
+              <h2 className="text-lg font-bold" style={{color:'#12254D'}}>Consultation and Support</h2>
 
               <p className="mt-1 text-sm text-black">
                 From expert advice to ongoing support, we're here to guide you

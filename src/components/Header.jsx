@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="bg-white" id="Header">
+    <header style={{backgroundColor:'#12254D'}} id="Header">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
-            <a className="block text-2xl font-extrabold text-orange-500" href="#">
+            <a className="block text-2xl font-extrabold text-white" href="#">
               <span className="sr-only">Home</span>
-              Dreel Media
+              Dreel Tech
             </a>
           </div>
 
@@ -17,7 +17,7 @@ export default function Header() {
               <ul className="flex items-center gap-6 text-base">
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:text-gray-500/75"
                     href="#About"
                   >
                     {" "}
@@ -27,7 +27,7 @@ export default function Header() {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:text-gray-500/75"
                     href="#Services"
                   >
                     {" "}
@@ -37,7 +37,7 @@ export default function Header() {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:text-gray-500/75"
                     href="#Services"
                   >
                     {" "}
@@ -47,7 +47,7 @@ export default function Header() {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:text-gray-500/75"
                     href="#Team"
                   >
                     {" "}
@@ -85,7 +85,7 @@ export default function Header() {
               <ul className="flex items-center gap-6 text-sm">
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:text-gray-500/75"
                     href="#About"
                   >
                     {" "}
@@ -95,7 +95,7 @@ export default function Header() {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:text-gray-500/75"
                     href="#Services"
                   >
                     {" "}
@@ -105,7 +105,7 @@ export default function Header() {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:text-gray-500/75"
                     href="#Services"
                   >
                     {" "}
@@ -115,7 +115,7 @@ export default function Header() {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-white transition hover:text-gray-500/75"
                     href="#Team"
                   >
                     {" "}
